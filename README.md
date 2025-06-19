@@ -5,6 +5,8 @@ High Life Smokeleaf Tweak is a tiny quality-of-life mod for RimWorld that soften
 
 With the tweak enabled your stoner colonists can keep working, fighting and surviving while enjoying their favourite herb.
 
+You can customise how much of the debuff is restored via a handy slider in the in-game mod settings.
+
 ## What exactly does it do?
 * Hooks into `PawnCapacityUtility.CalculateCapacityLevel` with a Harmony **Postfix**.
 * When the game calculates the **Consciousness** capacity:

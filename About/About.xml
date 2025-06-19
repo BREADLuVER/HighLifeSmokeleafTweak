@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ModMetaData>
   <name>HighLife Smokeleaf Tweak</name>
-  <author>YourNameHere</author>
+  <author>Brad Yin</author>
   <description>Reduces the smokeleaf consciousness debuff for high-life pawns. Fully compatible with RimWorld 1.6.</description>
-  <packageId>yourname.highlife.smokeleaftweak</packageId>
+  <packageId>BradYin.highlife.smokeleaftweak</packageId>
   <supportedVersions>
     <li>1.5</li>
     <li>1.6</li>

@@ -30,7 +30,8 @@ namespace HighLifeSmokeleafTweak
 
                 if (hasSmokeleaf && pawn.Ideo?.HasMeme(DefDatabase<MemeDef>.GetNamed("HighLife")) == true)
                 {
-                    float boost = (1f - __result) * 0.99f;
+                    float restore = HighLifeSmokeleafTweakMod.Settings?.restorePercent ?? 0.99f;
+                    float boost = (1f - __result) * restore;
                     __result += boost;
 
                     //Log.Message($"[HighLifeSmokeleafTweak] Consciousness patch applied to {pawn.NameShortColored}. New value: {__result}");
