@@ -33,7 +33,7 @@ namespace HighLifeSmokeleafTweak
                     float boost = (1f - __result) * 0.99f;
                     __result += boost;
 
-                    Log.Message($"[HighLifeSmokeleafTweak] Consciousness patch applied to {pawn.NameShortColored}. New value: {__result}");
+                    //Log.Message($"[HighLifeSmokeleafTweak] Consciousness patch applied to {pawn.NameShortColored}. New value: {__result}");
                 }
             }
         }
